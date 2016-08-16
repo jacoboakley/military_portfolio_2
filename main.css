@@ -1,0 +1,72 @@
+/* HEADER */
+header {
+  background: URL("http://pics.ebaystatic.com/aw/pics/vit/flag/hdr2_flag.gif");
+  background-size: cover;
+  height: 13em;
+}
+
+.col-md-4 {
+  display: inline-block;
+  width: 33%;
+  height: 35%;
+  text-align: center;
+}
+
+#header_pic {
+    height: 13em;
+    width: 13em;
+}
+
+#header_p {
+  list-style-type: none;
+  font-family: times;
+  font-size: 3em;
+  margin-top: .05em;
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+#logo {
+    width: 10em;
+    height: 10em;
+    margin-top: 1.65em;
+}
+
+#logo:hover {
+  transform: rotateY(360deg);
+  transition: 2s;
+}
+
+/* MAIN BODY */
+
+h2 {
+  text-align: center;
+}
+
+.col-md-6 {
+  display: inline-block;
+  width: 33%;
+  height: 35%;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background: black;
+}
+footer p {
+  margin-top: .65em;
+  color: white;
+}
+
+.col-sm-4 {
+  display: inline-block;
+  width: 33%;
+  height: 35%;
+  text-align: center;
+}
