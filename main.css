@@ -1,3 +1,7 @@
+body {
+  font-family: times;
+}
+
 /* HEADER */
 header {
   background: URL("http://pics.ebaystatic.com/aw/pics/vit/flag/hdr2_flag.gif");
@@ -41,16 +45,39 @@ header {
 }
 
 /* MAIN BODY */
+.container_1{
+  background: URL("http://www.theodoresworld.net/pics/0207/trooopsbridgeImage2.jpg");
+  background-size: cover;
+  height: 35em;
+  overflow: auto;
+  color: white;
+}
+
+.container_2 {
+  background: URL("http://www.alu.army.mil/alog/issues/JulAug10/Story_Images/Drawdown_Iraq_port.jpg");
+  background-size: cover;
+  height: 500px;
+  overflow: auto;
+}
 
 h2 {
   text-align: center;
+   
 }
 
 .col-md-6 {
   display: inline-block;
-  width: 33%;
-  height: 35%;
   text-align: center;
+}
+
+.col-md-6 p {
+  text-align: left;
+  text-indent: 3em;
+  font-size: 2em;
+}
+
+.col-md-6 img {
+  border-radius: 20%;
 }
 
 /* FOOTER */
