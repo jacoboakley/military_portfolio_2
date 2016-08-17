@@ -46,18 +46,21 @@ header {
 
 /* MAIN BODY */
 .container_1{
-  background: URL("http://www.theodoresworld.net/pics/0207/trooopsbridgeImage2.jpg");
+  background: URL("http://www.alu.army.mil/alog/issues/JulAug10/Story_Images/Drawdown_Iraq_port.jpg");
   background-size: cover;
-  height: 35em;
+  height: 50em;
   overflow: auto;
   color: white;
+  background-position: 0px -250px;
 }
 
 .container_2 {
-  background: URL("http://www.alu.army.mil/alog/issues/JulAug10/Story_Images/Drawdown_Iraq_port.jpg");
+  background: URL("http://www.theodoresworld.net/pics/0207/trooopsbridgeImage2.jpg");
   background-size: cover;
-  height: 500px;
+  height: 50em;
+  color: white;
   overflow: auto;
+  background-position: 0px -250px;
 }
 
 h2 {
