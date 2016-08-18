@@ -10,11 +10,12 @@ header {
   z-index: 10;
 }
 
-.col-md-4 {
+.nav {
   text-align: center;
 }
 
 #header_pic {
+  margin-top: -.5em;
   height: 13em;
   width: 13em;
 }
@@ -49,6 +50,8 @@ header {
   height: 50em;
   background-position: 0px -250px;
   border-top: 1em solid black;
+  display: flex;
+  align-items: center;
 }
 
 .container {
@@ -62,18 +65,29 @@ header {
   background-size: cover;
   height: 50em;
   border-top: 1em solid black;
+  display: flex;
+  align-items: center;
 }
 
-.col-md-6 p {
+.col-sm-6 p {
   text-align: left;
   text-indent: 3em;
   font-size: 2em;
 }
 
-.col-md-6 img {
+.col-sm-6 img {
   border-radius: 20%;
 }
 
+.background_3 {
+  position: relative;
+  background: green;
+  background-size: cover;
+  height: 75em;
+  border-top: 1em solid black;
+  display: flex;
+  align-items: center;
+}
 /* FOOTER */
 
 footer {
