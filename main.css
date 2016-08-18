@@ -1,31 +1,27 @@
-body {
-  font-family: times;
-}
-
 /* HEADER */
 header {
   background: URL("http://pics.ebaystatic.com/aw/pics/vit/flag/hdr2_flag.gif");
   background-size: cover;
   height: 13em;
+  position: fixed;
+  left:0px;
+  top:0px;
+  width: 100%;
+  z-index: 10;
 }
 
 .col-md-4 {
-  display: inline-block;
-  width: 33%;
-  height: 35%;
   text-align: center;
 }
 
 #header_pic {
-    height: 13em;
-    width: 13em;
+  height: 13em;
+  width: 13em;
 }
 
 #header_p {
-  list-style-type: none;
-  font-family: times;
-  font-size: 3em;
-  margin-top: .05em;
+  margin-top: .5em;
+  font-size: 2.5em;
   text-shadow:
     -1px -1px 0 #fff,
      1px -1px 0 #fff,
@@ -34,9 +30,9 @@ header {
 }
 
 #logo {
-    width: 10em;
-    height: 10em;
-    margin-top: 1.65em;
+  margin-top: 1.5em;
+  width: 10em;
+  height: 10em;
 }
 
 #logo:hover {
@@ -45,32 +41,27 @@ header {
 }
 
 /* MAIN BODY */
-.container_1{
+.background {
+  position: relative;
+  margin-top: 13em;
   background: URL("http://www.alu.army.mil/alog/issues/JulAug10/Story_Images/Drawdown_Iraq_port.jpg");
   background-size: cover;
   height: 50em;
-  overflow: auto;
-  color: white;
   background-position: 0px -250px;
+  border-top: 1em solid black;
 }
 
-.container_2 {
+.container {
+  color: white;
+  text-align: center;
+}
+
+.background_2 {
+  position: relative;
   background: URL("http://www.theodoresworld.net/pics/0207/trooopsbridgeImage2.jpg");
   background-size: cover;
   height: 50em;
-  color: white;
-  overflow: auto;
-  background-position: 0px -250px;
-}
-
-h2 {
-  text-align: center;
-   
-}
-
-.col-md-6 {
-  display: inline-block;
-  text-align: center;
+  border-top: 1em solid black;
 }
 
 .col-md-6 p {
@@ -88,15 +79,14 @@ h2 {
 footer {
   text-align: center;
   background: black;
-}
-footer p {
-  margin-top: .65em;
-  color: white;
+  width: 100%;
+  height: 2.5em;
 }
 
 .col-sm-4 {
-  display: inline-block;
-  width: 33%;
-  height: 35%;
-  text-align: center;
+  margin-top: .5em;
+}
+
+footer p {
+  color: white;
 }
